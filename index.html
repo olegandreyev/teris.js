@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>tetris</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+        #points,span{
+            display: inline-block;
+            vertical-align: top;
+        }
+
+    </style>
+    <script src="tetris.js"></script>
+
+</head>
+<body onload="game()">
+<audio autoplay  >
+    <source src="tetris.mp3" type="audio/mpeg">
+</audio>
+<canvas id="canvas" width="400" height="600"></canvas>
+<button id="points">0</button> <span>очков!</span>
+</body>
+</html>
